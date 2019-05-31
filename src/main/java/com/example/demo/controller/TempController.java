@@ -27,7 +27,7 @@ public class TempController {
     @GetMapping("/test")
     public String test() throws ClientException {
 //        String accessToken = wechatMPService.getAccessToken();
-        User user = userService.getUserFromWechatMP("oUwXe58JsPM6MBFsI3YvnbFIpg-8");
+        User user = userService.getUserFromWechatMP("odUdT5uxVE2wsFfpZSyAuTreaT8E");
         return "temptest";
     }
 }
